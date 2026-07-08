@@ -8,7 +8,8 @@ title: "RTS Dynamic VAT Management – Help"
   <a href="guide">Setup Guide</a> &nbsp;|&nbsp;
   <a href="product-info">Product Information</a> &nbsp;|&nbsp;
   <a href="eula">EULA</a> &nbsp;|&nbsp;
-  <a href="terms">Terms &amp; Conditions</a>
+  <a href="terms">Terms &amp; Conditions</a> &nbsp;|&nbsp;
+  <a href="privacy-policy">Privacy Policy</a>
 </nav>
 
 # Dynamic VAT Management (DVM) – Help
