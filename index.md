@@ -46,17 +46,17 @@ Open the DVM Setup page.
 
 Populate the following fields:
 
-- **Enable DVM** â€“ set to Yes to activate the logic.
-- **Default Vessel** â€“ default vessel is set specific for and on each vessel database separately.
-- **Use Timetable** â€“ mark this field if you want to use timetable-based DVM changes.
+- **Enable DVM** – set to Yes to activate the logic.
+- **Default Vessel** – default vessel is set specific for and on each vessel database separately.
+- **Use Timetable** – mark this field if you want to use timetable-based DVM changes.
 
 ### 1.3 Vessel, Route and Leg Definitions
 
 Before VAT can be calculated, you must define the hierarchy that DVM uses:
 
-- **Vessels** â€“ physical vessels or units on which POS devices operate.
-- **Routes** â€“ connections between ports/locations that the vessel travels.
-- **Legs** â€“ individual segments of a route, each having its own VAT configuration.
+- **Vessels** – physical vessels or units on which POS devices operate.
+- **Routes** – connections between ports/locations that the vessel travels.
+- **Legs** – individual segments of a route, each having its own VAT configuration.
 
 Steps:
 
@@ -153,8 +153,8 @@ Example:
 
 **Vessel FERRY01** sails from Port A to Port B with the following legs:
 
-- Leg 10 â€“ Port A â†’ International waters (domestic VAT).
-- Leg 20 â€“ International waters â†’ Port B (foreign VAT).
+- Leg 10 – Port A → International waters (domestic VAT).
+- Leg 20 – International waters → Port B (foreign VAT).
 
 When the timetable indicates that the vessel entered Leg 20, DVM automatically changes the active leg to 20 and all subsequent POS sales are posted with the VAT Business Posting Group configured for Leg 20.
 
