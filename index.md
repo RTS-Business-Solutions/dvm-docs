@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "RTS Dynamic VAT Management - Help"
+title: "RTS Dynamic VAT Management"
 ---
 
 <nav style="margin-bottom:1.5rem">
