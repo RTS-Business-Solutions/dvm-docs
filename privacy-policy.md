@@ -22,20 +22,26 @@ We are committed to protecting the privacy and security of your personal informa
 ## 2. Information We Collect
 
 ### Personal Identification Information
+
 This includes:
+
 - Name
 - Email address
 - Telephone number
 - Any other details you provide when booking an appointment
 
 ### Booking Details
+
 Information related to your appointment, such as:
+
 - Date
 - Time
 - Type of service requested
 
 ### Communication Data
+
 Any correspondence between us, including:
+
 - Emails
 - Messages submitted through our booking page
 
