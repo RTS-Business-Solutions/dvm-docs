@@ -38,6 +38,7 @@ title: "Setup Guide"
 - [Blueflow](#blueflow)
 
 <a id="general"></a>
+<a id="vessel_setup"></a>
 ## General
 
 Dynamic VAT Management is tailored to adjust VAT for international transactions based on the destination.
@@ -152,7 +153,7 @@ To support VAT management through timetables, routes must be defined before impo
 Legs define the VAT segments used during travel.
 
 Every route contains one or more legs.
-
+<a id="route_legs"></a>
 ![Route-Leg.png](images/Route-Leg.png)
 
 ![Leg.png](images/Leg.png)
