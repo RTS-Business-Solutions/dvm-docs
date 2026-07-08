@@ -13,6 +13,31 @@ title: "Setup Guide"
 </nav>
 # Dynamic VAT Management
 
+## Table of Contents
+
+- [General](#general)
+	- [Timetable](#timetable)
+	- [Manual VAT Change](#manual_vat_change)
+	- [Integrations](#integrations)
+- [General Setup](#generel_setup)
+- [Vessels](#vessels)
+	- [Vessel Fields](#vessel_fields)
+- [Routes](#routes)
+	- [Route Fields](#route_fields)
+- [Legs](#legs)
+	- [Leg Fields](#leg_fields)
+- [VAT Store Groups](#vat_store_groups)
+	- [Store VAT Fields](#store_vat_fields)
+- [VAT Timetable](#vat_timetable)
+- [Manual Timetable Import](#manual_timetable_import)
+- [Automatic Timetable Import](#automatic_timetable_import)
+- [No Timetable](#no_timetable)
+- [POS Command](#pos_command)
+	- [Register DVM POS Commands](#register_dvm_pos_commands)
+	- [Using DVM_CHNGLEG](#using_dvm_chngleg)
+- [Blueflow](#blueflow)
+
+<a id="general"></a>
 ## General
 
 Dynamic VAT Management is tailored to adjust VAT for international transactions based on the destination.
@@ -26,6 +51,7 @@ This can be managed by either:
 - Timetable
 - Manual Leg Change
 
+<a id="timetable"></a>
 ### Timetable
 
 To efficiently manage VAT changes, Dynamic VAT Management provides the capability to upload timetables that specify the necessary data and actions required for VAT adjustments.
@@ -36,6 +62,7 @@ The module does not permit immediate changes to dimensions or other parameters n
 
 The module is currently available in English only.
 
+<a id="manual_vat_change"></a>
 ### Manual VAT Change
 
 Disable **Timetable in Use** to manage VAT changes manually.
@@ -44,6 +71,7 @@ To change VAT manually, create a POS button using the **DVMCHGLEG** POS command.
 
 > This functionality is not yet implemented.
 
+<a id="integrations"></a>
 ### Integrations
 
 Dynamic VAT Management provides API integration capabilities with or without timetable usage.
@@ -54,7 +82,9 @@ Integration with Blueflow is supported.
 
 ---
 
-# General Setup
+<a id="generel_setup"></a>
+<a id="general_setup"></a>
+## General Setup
 
 Before Dynamic VAT Management can be used, the following master data must be created:
 
@@ -72,6 +102,7 @@ Otherwise, timetable imports will fail.
 
 ---
 
+<a id="vessels"></a>
 ## Vessels
 
 All vessels where DVM should control VAT must be created.
@@ -84,10 +115,11 @@ Select **Vessels** to open the vessel list.
 
 ![Vessels_list.png](images/Vessels_list.png)
 
+<a id="vessel_fields"></a>
 ### Vessel Fields
 
 | Field | Description |
-|---------|-------------|
+| --------- | ------------- |
 | Code | LS Central internal vessel code |
 | External Code | Code used by external systems |
 | Active | Indicates that DVM is enabled for the vessel |
@@ -95,16 +127,18 @@ Select **Vessels** to open the vessel list.
 
 ---
 
+<a id="routes"></a>
 ## Routes
 
 To support VAT management through timetables, routes must be defined before importing schedules.
 
 ![DVMSetup_Route-Setup-1.png](images/DVMSetup_Route-Setup-1.png)
 
+<a id="route_fields"></a>
 ### Route Fields
 
 | Field | Description |
-|---------|-------------|
+| --------- | ------------- |
 | Code | LS Central internal route code |
 | External Code | Code used by external systems |
 | Active | Indicates active DVM route |
@@ -112,6 +146,7 @@ To support VAT management through timetables, routes must be defined before impo
 
 ---
 
+<a id="legs"></a>
 ## Legs
 
 Legs define the VAT segments used during travel.
@@ -122,10 +157,11 @@ Every route contains one or more legs.
 
 ![Leg.png](images/Leg.png)
 
+<a id="leg_fields"></a>
 ### Leg Fields
 
 | Field | Description |
-|---------|-------------|
+| --------- | ------------- |
 | Code | LS Central internal leg code |
 | Description | Descriptive text |
 | External Code | External leg identifier |
@@ -134,6 +170,7 @@ Every route contains one or more legs.
 
 ---
 
+<a id="vat_store_groups"></a>
 ## VAT Store Groups
 
 For every leg, one or more VAT Business Posting Groups must be defined.
@@ -146,10 +183,11 @@ If Store Code is blank, the VAT setup is considered the default configuration.
 
 ![StoreVATGroups.png](images/StoreVATGroups.png)
 
+<a id="store_vat_fields"></a>
 ### Store VAT Fields
 
 | Field | Description |
-|---------|-------------|
+| --------- | ------------- |
 | Store No. | Store identifier |
 | Store Description | Store description |
 | VAT Bus. Posting Grp. Code | VAT posting group used by the store |
@@ -157,7 +195,8 @@ If Store Code is blank, the VAT setup is considered the default configuration.
 
 ---
 
-# Timetable
+<a id="vat_timetable"></a>
+## VAT Timetable
 
 RTS VAT Management supports three methods for VAT changes:
 
@@ -185,6 +224,7 @@ The POS uses the current vessel and current leg to determine the correct VAT Bus
 
 ---
 
+<a id="manual_timetable_import"></a>
 ## Manual Timetable Import
 
 Manual timetable imports are performed from Vessel Setup.
@@ -197,6 +237,7 @@ Use **Import Timetable** to load timetable data manually.
 
 ---
 
+<a id="automatic_timetable_import"></a>
 ## Automatic Timetable Import
 
 Timetables can also be imported using the DVM API.
@@ -205,7 +246,8 @@ Timetables can also be imported using the DVM API.
 
 ---
 
-# No Timetable
+<a id="no_timetable"></a>
+## No Timetable
 
 DVM can operate without timetable usage.
 
@@ -224,26 +266,28 @@ The POS will determine VAT from the Current Leg.
 
 ---
 
-# POS Command
+<a id="pos_command"></a>
+## POS Command
 
-## Register DVM POS Commands
+<a id="register_dvm_pos_commands"></a>
+### Register DVM POS Commands
 
 Open:
 
-**POS External Commands â†’ Register**
+#### POS External Commands → Register
 
 Register:
 
-**RTS.DVM External POS Commands**
+#### RTS.DVM External POS Commands
 
 After registration, **DVM_CHNGLEG** can be assigned to POS buttons.
 
 ![DVMPOSCommandSetup.png](images/DVMPOSCommandSetup.png)
 
-
 ---
 
-## Using DVM_CHNGLEG
+<a id="using_dvm_chngleg"></a>
+### Using DVM_CHNGLEG
 
 When activated, a confirmation dialog is displayed.
 
@@ -267,6 +311,7 @@ If the leg change does not occur:
 
 ---
 
+<a id="blueflow"></a>
 ## Blueflow
 
 Integration with Blueflow and other compatible external systems is supported.
