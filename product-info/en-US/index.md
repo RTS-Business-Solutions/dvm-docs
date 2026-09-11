@@ -5,7 +5,7 @@ title: "Product Information"
 
 <nav style="margin-bottom:1.5rem">
     <a href="../../index/en-US">Home</a> &nbsp;|&nbsp;
-    <a href="../../guide/en-US">Setup Guide</a> &nbsp;|&nbsp;
+    <!-- <a href="../../guide/en-US">Setup Guide</a> &nbsp;|&nbsp; -->
     <a href="../../product-info/en-US">Product Information</a> &nbsp;|&nbsp;
     <a href="../../eula/en-US">EULA</a> &nbsp;|&nbsp;
     <a href="../../terms/en-US">Terms &amp; Conditions</a> &nbsp;|&nbsp;
@@ -23,7 +23,7 @@ Dynamic VAT Management (DVM) is an advanced VAT automation module designed for o
 
 It enables real-time VAT adjustments based on routes, destinations, and operational context, ensuring compliance without manual intervention.
 
-DVM is built for environments where VAT rules change during operations â€” such as maritime transport, passenger services, cross-border retail, and international logistics.
+DVM is built for environments where VAT rules change during operations — such as maritime transport, passenger services, cross-border retail, and international logistics.
 
 The module integrates directly with POS operations and scheduling logic, allowing businesses to maintain accuracy while reducing manual workload.
 
