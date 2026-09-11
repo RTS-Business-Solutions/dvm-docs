@@ -4,8 +4,7 @@ title: "Terms and Conditions"
 ---
 
 <nav style="margin-bottom:1.5rem">
-    <a href="../../index/en-US">Home</a> &nbsp;|&nbsp;
-    <!-- <a href="../../guide/en-US">Setup Guide</a> &nbsp;|&nbsp; -->
+    <a href="../../index/en-US">Homex</a> &nbsp;|&nbsp;
     <a href="../../product-info/en-US">Product Information</a> &nbsp;|&nbsp;
     <a href="../../eula/en-US">EULA</a> &nbsp;|&nbsp;
     <a href="../../terms/en-US">Terms &amp; Conditions</a> &nbsp;|&nbsp;
