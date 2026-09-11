@@ -18,7 +18,7 @@ DVM kan ændre legs baseret på Tidsplan, manuelt på POS af brugeren, der udfø
 
 Dette dokument beskriver opsætning, daglig brug og integrationsmuligheder for DVM-appen.
 
-## Funktionsoversigt
+## Funktionsoversigt 
 
 | Feature | Description |
 |----------|-------------|
