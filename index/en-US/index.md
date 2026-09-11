@@ -4,7 +4,7 @@ title: "RTS Dynamic VAT Management"
 ---
 
 <nav style="margin-bottom:1.5rem">
-    <a href="../../index/en-US">Homex</a> &nbsp;|&nbsp;
+    <a href="../../index/en-US">Home</a> &nbsp;|&nbsp;
     <a href="../../product-info/en-US">Product Information</a> &nbsp;|&nbsp;
     <a href="../../eula/en-US">EULA</a> &nbsp;|&nbsp;
     <a href="../../terms/en-US">Terms &amp; Conditions</a> &nbsp;|&nbsp;
@@ -18,10 +18,10 @@ DVM can change legs relying on the Timetable, manually on POS by user who runs t
 
 This document describes the setup, daily usage and integration options for the DVM app.
 
-## Feature overview 
+## Feature overview
 
 | Feature | Description |
-|----------|-------------|
+| ---------- | -------------  |
 | Prerequisites, installation and setup | Describes how to install the DVM extension and perform the initial configuration. |
 | Route and Leg definitions | Describes how to define vessels, routes and legs that are used as a basis for VAT calculation. |
 | Timetable import and handling | Describes how to import timetables manually or via API and how they influence VAT changes. |
