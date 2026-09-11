@@ -5,7 +5,7 @@ title: "Setup Guide"
 
 <nav style="margin-bottom:1.5rem">
     <a href="../../index/da-DK">Home</a> &nbsp;|&nbsp;
-    <a href="../../guide/da-DK">Setup Guide</a> &nbsp;|&nbsp;
+    <!-- <a href="../../guide/da-DK">Setup Guide</a> &nbsp;|&nbsp; -->
     <a href="../../product-info/da-DK">Product Information</a> &nbsp;|&nbsp;
     <a href="../../eula/da-DK">EULA</a> &nbsp;|&nbsp;
     <a href="../../terms/da-DK">Terms &amp; Conditions</a> &nbsp;|&nbsp;
@@ -17,15 +17,15 @@ title: "Setup Guide"
 
 - [Generelt](#general)
 - [Tidsplan](#timetable)
-- [Manuel VAT-Ã¦ndring](#manual_vat_change)
+- [Manuel VAT-ændring](#manual_vat_change)
 - [Integrationer](#integrations)
-- [Generel opsÃ¦tning](#generel_setup)
+- [Generel opsætning](#generel_setup)
 - [Skibe](#vessels)
 - [Skibsfelter](#vessel_fields)
 - [Ruter](#routes)
 - [Rutefelter](#route_fields)
-- [StrÃ¦kninger](#legs)
-- [StrÃ¦kningsfelter](#leg_fields)
+- [Strækninger](#legs)
+- [Strækningsfelter](#leg_fields)
 - [Butiksmomsgrupper](#vat_store_groups)
 - [Butiksmomsfelter](#store_vat_fields)
 - [VAT-tidsplan](#vat_timetable)
@@ -41,43 +41,43 @@ title: "Setup Guide"
 <a id="vessel_setup"></a>
 ## Generelt
 
-Dynamic VAT Management er designet til at justere VAT for internationale transaktioner baseret pÃ¥ destination.
+Dynamic VAT Management er designet til at justere VAT for internationale transaktioner baseret på destination.
 
-Modulet Ã¦ndrer VAT ved at opdatere VAT Business Posting Group i POS-transaktioner.
+Modulet ændrer VAT ved at opdatere VAT Business Posting Group i POS-transaktioner.
 
-Med mulighed for at definere flere Ports, Ruter og StrÃ¦kninger kan Dynamic VAT Management bestemme korrekt VAT.
+Med mulighed for at definere flere Ports, Ruter og Strækninger kan Dynamic VAT Management bestemme korrekt VAT.
 
 Dette kan styres via:
 
 - Tidsplan
-- Manuel leg-Ã¦ndring
+- Manuel leg-ændring
 
 <a id="timetable"></a>
 ### Tidsplan
 
-For effektiv hÃ¥ndtering af VAT-Ã¦ndringer tilbyder Dynamic VAT Management mulighed for at uploade tidsplaner med de nÃ¸dvendige data og handlinger til VAT-justering.
+For effektiv håndtering af VAT-ændringer tilbyder Dynamic VAT Management mulighed for at uploade tidsplaner med de nødvendige data og handlinger til VAT-justering.
 
 Hvis en tidsplan ikke findes, anvender systemet VAT Business Posting Group fra Store Card.
 
-Modulet tillader ikke Ã¸jeblikkelige Ã¦ndringer af dimensioner eller andre parametre, der ikke styres af VAT posting group.
+Modulet tillader ikke øjeblikkelige ændringer af dimensioner eller andre parametre, der ikke styres af VAT posting group.
 
-Modulet er i Ã¸jeblikket kun tilgÃ¦ngeligt pÃ¥ engelsk.
+Modulet er i øjeblikket kun tilgængeligt på engelsk.
 
 <a id="manual_vat_change"></a>
-### Manuel VAT-Ã¦ndring
+### Manuel VAT-ændring
 
-Deaktiver **Tidsplan in Use** for at hÃ¥ndtere VAT-Ã¦ndringer manuelt.
+Deaktiver **Tidsplan in Use** for at håndtere VAT-ændringer manuelt.
 
-For at Ã¦ndre VAT manuelt oprettes en POS-knap med **DVMCHGLEG** POS command.
+For at ændre VAT manuelt oprettes en POS-knap med **DVMCHGLEG** POS command.
 
 > Denne funktionalitet er endnu ikke implementeret.
 
 <a id="integrations"></a>
 ### Integrationer
 
-Dynamic VAT Management understÃ¸tter API-integration med eller uden brug af tidsplan.
+Dynamic VAT Management understøtter API-integration med eller uden brug af tidsplan.
 
-Integration med Blueflow understÃ¸ttes.
+Integration med Blueflow understøttes.
 
 > Opret en supporthenvendelse for tekniske integrationsdetaljer.
 
@@ -85,19 +85,19 @@ Integration med Blueflow understÃ¸ttes.
 
 <a id="generel_setup"></a>
 <a id="general_setup"></a>
-## Generel opsÃ¦tning
+## Generel opsætning
 
-FÃ¸r Dynamic VAT Management kan anvendes, skal fÃ¸lgende masterdata oprettes:
+Før Dynamic VAT Management kan anvendes, skal følgende masterdata oprettes:
 
 - Skibe
 - Ruter
-- StrÃ¦kninger
+- Strækninger
 
-Alle ruter, der refereres i tidsplanfiler, skal eksistere i Rute-tabellen fÃ¸r import.
+Alle ruter, der refereres i tidsplanfiler, skal eksistere i Rute-tabellen før import.
 
 Ellers vil tidsplan-import fejle.
 
-> **Note:** Dynamic VAT-logik er kun aktiv, nÃ¥r **DVM Enable** er slÃ¥et til.
+> **Note:** Dynamic VAT-logik er kun aktiv, når **DVM Enable** er slået til.
 
 ![VesselSetup_DVMEnable.png](../../images/VesselSetup_DVMEnable.png)
 
@@ -108,11 +108,11 @@ Ellers vil tidsplan-import fejle.
 
 Alle skibe, hvor DVM skal styre VAT, skal oprettes.
 
-Skibsliste er tilgÃ¦ngelig fra Skib Setup-siden.
+Skibsliste er tilgængelig fra Skib Setup-siden.
 
 ![DVMSetup_Vessel.png](../../images/DVMSetup_Vessel.png)
 
-VÃ¦lg **Skibe** for at Ã¥bne skibslisten.
+Vælg **Skibe** for at åbne skibslisten.
 
 ![Vessels_list.png](../../images/Vessels_list.png)
 
@@ -131,7 +131,7 @@ VÃ¦lg **Skibe** for at Ã¥bne skibslisten.
 <a id="routes"></a>
 ## Ruter
 
-For at understÃ¸tte VAT-hÃ¥ndtering via tidsplaner skal ruter vÃ¦re defineret fÃ¸r import af tidsplaner.
+For at understøtte VAT-håndtering via tidsplaner skal ruter være defineret før import af tidsplaner.
 
 ![DVMSetup_Route-Setup-1.png](../../images/DVMSetup_Route-Setup-1.png)
 
@@ -148,25 +148,25 @@ For at understÃ¸tte VAT-hÃ¥ndtering via tidsplaner skal ruter vÃ¦re define
 ---
 
 <a id="legs"></a>
-## StrÃ¦kninger
+## Strækninger
 
-StrÃ¦kninger definerer de VAT-segmenter, der anvendes under rejsen.
+Strækninger definerer de VAT-segmenter, der anvendes under rejsen.
 
-Hver rute indeholder Ã©n eller flere strÃ¦kninger.
+Hver rute indeholder én eller flere strækninger.
 <a id="route_legs"></a>
 ![Route-Leg.png](../../images/Route-Leg.png)
 
 ![Leg.png](../../images/Leg.png)
 
 <a id="leg_fields"></a>
-### StrÃ¦kningsfelter
+### Strækningsfelter
 
 | Field | Description |
 | --------- | ------------- |
 | Code | LS Central intern leg-kode |
 | Description | Beskrivende tekst |
 | External Code | Ekstern leg-identifikator |
-| Harbor | IndgÃ¥ende eller udgÃ¥ende havn |
+| Harbor | Indgående eller udgående havn |
 | External Ref. | Ekstern integrationsreference |
 
 ---
@@ -174,13 +174,13 @@ Hver rute indeholder Ã©n eller flere strÃ¦kninger.
 <a id="vat_store_groups"></a>
 ## Butiksmomsgrupper
 
-For hver strÃ¦kning skal Ã©n eller flere VAT Business Posting Groups defineres.
+For hver strækning skal én eller flere VAT Business Posting Groups defineres.
 
-Hvis Store Code er tom, betragtes VAT-opsÃ¦tningen som standardkonfiguration.
+Hvis Store Code er tom, betragtes VAT-opsætningen som standardkonfiguration.
 
 ![DVMLeg_StoreVATGroups.png](../../images/DVMLeg_StoreVATGroups.png)
 
-> **Attention:** Best practice er altid at oprette en standard VAT-opsÃ¦tning for hver strÃ¦kning.
+> **Attention:** Best practice er altid at oprette en standard VAT-opsætning for hver strækning.
 
 ![StoreVATGroups.png](../../images/StoreVATGroups.png)
 
@@ -199,7 +199,7 @@ Hvis Store Code er tom, betragtes VAT-opsÃ¦tningen som standardkonfiguration.
 <a id="vat_timetable"></a>
 ## VAT-tidsplan
 
-RTS VAT Management understÃ¸tter tre metoder til VAT-Ã¦ndringer:
+RTS VAT Management understøtter tre metoder til VAT-ændringer:
 
 1. Tidsplan
 2. Manuel input (POS-kommando)
@@ -210,16 +210,16 @@ RTS VAT Management understÃ¸tter tre metoder til VAT-Ã¦ndringer:
 En tidsplan indeholder:
 
 - Rute
-- StrÃ¦kning
+- Strækning
 - Departure
 - Arrival
 - Shift Date Time
 
-Baseret pÃ¥ Shift Date Time beregnes departure-timing.
+Baseret på Shift Date Time beregnes departure-timing.
 
 ![DVM-image006.png](../../images/DVM-image006.png)
 
-Efter opsÃ¦tning skal **Current Vessel Code** vÃ¦lges i Skib Setup.
+Efter opsætning skal **Current Vessel Code** vælges i Skib Setup.
 
 POS bruger current vessel og current leg til at bestemme korrekt VAT Business Posting Group.
 
@@ -228,11 +228,11 @@ POS bruger current vessel og current leg til at bestemme korrekt VAT Business Po
 <a id="manual_timetable_import"></a>
 ## Manuel tidsplan-import
 
-Manuelle tidsplan-importer udfÃ¸res fra Skib Setup.
+Manuelle tidsplan-importer udføres fra Skib Setup.
 
 ![VesselSetup_Import_Timetable.png](../../images/VesselSetup_Import_Timetable.png)
 
-Brug **Import Tidsplan** til manuel indlÃ¦sning af tidsplandata.
+Brug **Import Tidsplan** til manuel indlæsning af tidsplandata.
 
 > Opret en supporthenvendelse for specifikation af tidsplanfilformat.
 
@@ -241,7 +241,7 @@ Brug **Import Tidsplan** til manuel indlÃ¦sning af tidsplandata.
 <a id="automatic_timetable_import"></a>
 ## Automatisk tidsplan-import
 
-Tidsplaner kan ogsÃ¥ importeres via DVM API.
+Tidsplaner kan også importeres via DVM API.
 
 > Opret en supporthenvendelse for API-dokumentation.
 
@@ -250,20 +250,20 @@ Tidsplaner kan ogsÃ¥ importeres via DVM API.
 <a id="no_timetable"></a>
 ## Uden tidsplan
 
-DVM kan kÃ¸re uden brug af tidsplan.
+DVM kan køre uden brug af tidsplan.
 
-Eksterne applikationer som Blueflow kan styre rute- og strÃ¦kningsÃ¦ndringer via API.
+Eksterne applikationer som Blueflow kan styre rute- og strækningsændringer via API.
 
 ![VesselSetup_ExternalMgtEnable.png](../../images/VesselSetup_ExternalMgtEnable.png)
 
 For at bruge DVM uden tidsplaner:
 
 - Konfigurer Current Rute
-- Konfigurer Current StrÃ¦kning
+- Konfigurer Current Strækning
 
-POS bestemmer VAT ud fra Current StrÃ¦kning.
+POS bestemmer VAT ud fra Current Strækning.
 
-> **Attention:** Standard VAT-opsÃ¦tning skal eksistere for hver strÃ¦kning.
+> **Attention:** Standard VAT-opsætning skal eksistere for hver strækning.
 
 ---
 
@@ -273,9 +273,9 @@ POS bestemmer VAT ud fra Current StrÃ¦kning.
 <a id="register_dvm_pos_commands"></a>
 ### Registrer DVM POS-kommandoer
 
-Ã…bn:
+Åbn:
 
-#### POS External Commands â†’ Register
+#### POS External Commands → Register
 
 Registrer:
 
@@ -290,33 +290,33 @@ Efter registrering kan **DVM_CHNGLEG** tildeles POS-knapper.
 <a id="using_dvm_chngleg"></a>
 ### Brug af DVM_CHNGLEG
 
-NÃ¥r funktionen aktiveres, vises en bekrÃ¦ftelsesdialog.
+Når funktionen aktiveres, vises en bekræftelsesdialog.
 
 ![DVMPOSCommandDialog.png](../../images/DVMPOSCommandDialog.png)
 
-Hvis brugeren vÃ¦lger **Yes**, vises tilgÃ¦ngelige strÃ¦kninger.
+Hvis brugeren vælger **Yes**, vises tilgængelige strækninger.
 
 ![DVMPOSCommandSelect.png](../../images/DVMPOSCommandSelect.png)
 
-Den valgte strÃ¦kning aktiveres derefter.
+Den valgte strækning aktiveres derefter.
 
-Ã†ndringen fÃ¸lger samme proces som et API-udlÃ¸st strÃ¦kningsskift (fx Blueflow).
+Ændringen følger samme proces som et API-udløst strækningsskift (fx Blueflow).
 
-> StrÃ¦kning-skift sker ikke Ã¸jeblikkeligt. En Job Queue Entry oprettes og behandles nÃ¦sten med det samme.
+> Strækning-skift sker ikke øjeblikkeligt. En Job Queue Entry oprettes og behandles næsten med det samme.
 
-Hvis strÃ¦kningsskiftet ikke sker:
+Hvis strækningsskiftet ikke sker:
 
 - Kontroller Job Queue Entries
 - Kontroller Job Queue Errors
-- Verificer rute- og strÃ¦kningskonfiguration
+- Verificer rute- og strækningskonfiguration
 
 ---
 
 <a id="blueflow"></a>
 ## Blueflow
 
-Integration med Blueflow og andre kompatible eksterne systemer understÃ¸ttes.
+Integration med Blueflow og andre kompatible eksterne systemer understøttes.
 
-Rute- og strÃ¦kningsopdateringer modtages via integrationer og afspejles i Skib Setup.
+Rute- og strækningsopdateringer modtages via integrationer og afspejles i Skib Setup.
 
 For tekniske integrationsdetaljer opret en supporthenvendelse.
