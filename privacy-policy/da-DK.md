@@ -5,7 +5,6 @@ title: "Privacy Policy"
 
 <nav style="margin-bottom:1.5rem">
     <a href="../index/da-DK">Home</a> &nbsp;|&nbsp;
-    <a href="../guide/da-DK">Setup Guide</a> &nbsp;|&nbsp;
     <a href="../product-info/da-DK">Product Information</a> &nbsp;|&nbsp;
     <a href="../eula/da-DK">EULA</a> &nbsp;|&nbsp;
     <a href="../terms/da-DK">Terms &amp; Conditions</a> &nbsp;|&nbsp;
