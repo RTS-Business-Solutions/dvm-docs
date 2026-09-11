@@ -5,7 +5,7 @@ title: "Product Information"
 
 <nav style="margin-bottom:1.5rem">
     <a href="../../index/da-DK">Home</a> &nbsp;|&nbsp;
-    <a href="../../guide/da-DK">Setup Guide</a> &nbsp;|&nbsp;
+    <!-- <a href="../../guide/da-DK">Setup Guide</a> &nbsp;|&nbsp; -->
     <a href="../../product-info/da-DK">Product Information</a> &nbsp;|&nbsp;
     <a href="../../eula/da-DK">EULA</a> &nbsp;|&nbsp;
     <a href="../../terms/da-DK">Terms &amp; Conditions</a> &nbsp;|&nbsp;
@@ -19,26 +19,26 @@ title: "Product Information"
 
 ## Resume
 
-Dynamic VAT Management (DVM) er et avanceret modul til VAT-automatisering, udviklet til organisationer, der opererer pÃ¥ tvÃ¦rs af flere skattejurisdiktioner.
+Dynamic VAT Management (DVM) er et avanceret modul til VAT-automatisering, udviklet til organisationer, der opererer på tværs af flere skattejurisdiktioner.
 
-LÃ¸sningen muliggÃ¸r VAT-justeringer i realtid baseret pÃ¥ ruter, destinationer og driftskontekst, sÃ¥ compliance sikres uden manuel indgriben.
+Løsningen muliggør VAT-justeringer i realtid baseret på ruter, destinationer og driftskontekst, så compliance sikres uden manuel indgriben.
 
-DVM er bygget til miljÃ¸er, hvor VAT-regler Ã¦ndrer sig under drift - fx maritim transport, passagerservices, grÃ¦nseoverskridende detailhandel og international logistik.
+DVM er bygget til miljøer, hvor VAT-regler ændrer sig under drift - fx maritim transport, passagerservices, grænseoverskridende detailhandel og international logistik.
 
-Modulet er integreret direkte med POS-drift og planlÃ¦gningslogik, sÃ¥ virksomheder kan opretholde hÃ¸j nÃ¸jagtighed og samtidig reducere manuelt arbejde.
+Modulet er integreret direkte med POS-drift og planlægningslogik, så virksomheder kan opretholde høj nøjagtighed og samtidig reducere manuelt arbejde.
 
 ## Produktoversigt
 
-Dynamic VAT Management leverer en struktureret ramme til hÃ¥ndtering af VAT-regler pÃ¥ tvÃ¦rs af vessels, routes, legs og operationelle timetabeller.
+Dynamic VAT Management leverer en struktureret ramme til håndtering af VAT-regler på tværs af vessels, routes, legs og operationelle timetabeller.
 
 Systemet bestemmer dynamisk korrekt VAT ud fra rejsekonteksten og anvender skatteregler automatisk.
 
-Arkitekturen understÃ¸tter bÃ¥de automatisk og manuel styring, sÃ¥ driften kan fortsÃ¦tte stabilt - ogsÃ¥ i ekstraordinÃ¦re situationer.
+Arkitekturen understøtter både automatisk og manuel styring, så driften kan fortsætte stabilt - også i ekstraordinære situationer.
 
 ## Kernefunktioner
 
-- Automatisk MOMS-skifte baseret pÃ¥ operationel rute og timetabel
-- Tidsplan-drevet VAT-logik pÃ¥ tvÃ¦rs af jurisdiktioner
+- Automatisk MOMS-skifte baseret på operationel rute og timetabel
+- Tidsplan-drevet VAT-logik på tværs af jurisdiktioner
 - Manuelt override via POS commands
 - VAT-konfiguration pr. vessel og pr. route
 - API-klar integrationsarkitektur
@@ -50,51 +50,51 @@ DVM arbejder med konfigurerbare entiteter, herunder:
 
 - Skibe
 - Ruter
-- StrÃ¦kninger
+- Strækninger
 - VAT store groups
 
-Tidsplaner definerer jurisdiktionsskift og gÃ¸r det muligt for POS-miljÃ¸et automatisk at vÃ¦lge korrekte VAT-regler.
+Tidsplaner definerer jurisdiktionsskift og gør det muligt for POS-miljøet automatisk at vælge korrekte VAT-regler.
 
-Den modulÃ¦re arkitektur gÃ¸r det muligt at skalere operationer og samtidig opretholde ensartet tax compliance.
+Den modulære arkitektur gør det muligt at skalere operationer og samtidig opretholde ensartet tax compliance.
 
 ## Tidsplan-logik
 
-Tidsplan-baseret automatisering muliggÃ¸r realtidsskift af VAT-regler, nÃ¥r driften krydser landegrÃ¦nser.
+Tidsplan-baseret automatisering muliggør realtidsskift af VAT-regler, når driften krydser landegrænser.
 
-BÃ¥de manuelle timetables og API-drevne timetable-importer understÃ¸ttes, sÃ¥ organisationer kan tilpasse tax-logik til operationelle planlÃ¦gningssystemer.
+Både manuelle timetables og API-drevne timetable-importer understøttes, så organisationer kan tilpasse tax-logik til operationelle planlægningssystemer.
 
-Systemet sikrer uafbrudt VAT-nÃ¸jagtighed, uanset operationel kompleksitet.
+Systemet sikrer uafbrudt VAT-nøjagtighed, uanset operationel kompleksitet.
 
 ## Integration og automatisering
 
-Dynamic VAT Management understÃ¸tter API-baseret integration med:
+Dynamic VAT Management understøtter API-baseret integration med:
 
 - Eksterne workflow-platforme
-- PlanlÃ¦gningssystemer
-- POS-Ã¸kosystemer
+- Planlægningssystemer
+- POS-økosystemer
 
-Dette muliggÃ¸r avanceret orkestrering og synkronisering af VAT-logik med operationelle datakilder.
+Dette muliggør avanceret orkestrering og synkronisering af VAT-logik med operationelle datakilder.
 
-Integration sikrer, at VAT-hÃ¥ndtering bliver en del af en bredere automatiseringsstrategi fremfor en isoleret funktion.
+Integration sikrer, at VAT-håndtering bliver en del af en bredere automatiseringsstrategi fremfor en isoleret funktion.
 
 ## Typiske use cases
 
-- PassagerfÃ¦rger og maritime operationer
-- GrÃ¦nseoverskridende detailmiljÃ¸er
-- Logistik og transport pÃ¥ tvÃ¦rs af flere lande
+- Passagerfærger og maritime operationer
+- Grænseoverskridende detailmiljøer
+- Logistik og transport på tværs af flere lande
 - Internationale POS-implementeringer
 - Rejse- og duty-free-operationer
 
-## ForretningsmÃ¦ssige fordele
+## Forretningsmæssige fordele
 
-- Reduceret manuel VAT-hÃ¥ndtering
-- Forbedret compliance pÃ¥ tvÃ¦rs af jurisdiktioner
-- Automatiseret tax-nÃ¸jagtighed under drift
+- Reduceret manuel VAT-håndtering
+- Forbedret compliance på tværs af jurisdiktioner
+- Automatiseret tax-nøjagtighed under drift
 - Lavere operationel risiko
-- Skalerbar arkitektur til international vÃ¦kst
+- Skalerbar arkitektur til international vækst
 
 ## Konklusion
 
-Dynamic VAT Management leverer automatiseret og compliant VAT-hÃ¥ndtering i komplekse internationale miljÃ¸er.
+Dynamic VAT Management leverer automatiseret og compliant VAT-håndtering i komplekse internationale miljøer.
 
-LÃ¸sningen reducerer operationel overhead, forbedrer nÃ¸jagtigheden og sikrer, at organisationer kan skalere pÃ¥ tvÃ¦rs af jurisdiktioner med hÃ¸j grad af sikkerhed.
+Løsningen reducerer operationel overhead, forbedrer nøjagtigheden og sikrer, at organisationer kan skalere på tværs af jurisdiktioner med høj grad af sikkerhed.
