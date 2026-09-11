@@ -4,7 +4,7 @@ title: "Setup Guide"
 ---
 
 <nav style="margin-bottom:1.5rem">
-    <a href="../../index/en-US">Homex</a> &nbsp;|&nbsp;
+    <a href="../../index/en-US">Home</a> &nbsp;|&nbsp;
     <a href="../../product-info/en-US">Product Information</a> &nbsp;|&nbsp;
     <a href="../../eula/en-US">EULA</a> &nbsp;|&nbsp;
     <a href="../../terms/en-US">Terms &amp; Conditions</a> &nbsp;|&nbsp;
@@ -15,25 +15,25 @@ title: "Setup Guide"
 ## Table of Contents
 
 - [General](#general)
-	- [Timetable](#timetable)
-	- [Manual VAT Change](#manual_vat_change)
-	- [Integrations](#integrations)
+  - [Timetable](#timetable)
+  - [Manual VAT Change](#manual_vat_change)
+  - [Integrations](#integrations)
 - [General Setup](#generel_setup)
 - [Vessels](#vessels)
-	- [Vessel Fields](#vessel_fields)
+  - [Vessel Fields](#vessel_fields)
 - [Routes](#routes)
-	- [Route Fields](#route_fields)
+  - [Route Fields](#route_fields)
 - [Legs](#legs)
-	- [Leg Fields](#leg_fields)
+  - [Leg Fields](#leg_fields)
 - [VAT Store Groups](#vat_store_groups)
-	- [Store VAT Fields](#store_vat_fields)
+  - [Store VAT Fields](#store_vat_fields)
 - [VAT Timetable](#vat_timetable)
 - [Manual Timetable Import](#manual_timetable_import)
 - [Automatic Timetable Import](#automatic_timetable_import)
 - [No Timetable](#no_timetable)
 - [POS Command](#pos_command)
-	- [Register DVM POS Commands](#register_dvm_pos_commands)
-	- [Using DVM_CHNGLEG](#using_dvm_chngleg)
+  - [Register DVM POS Commands](#register_dvm_pos_commands)
+  - [Using DVM_CHNGLEG](#using_dvm_chngleg)
 - [Blueflow](#blueflow)
 
 <a id="general"></a>
