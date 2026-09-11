@@ -18,7 +18,7 @@ DVM can change legs relying on the Timetable, manually on POS by user who runs t
 
 This document describes the setup, daily usage and integration options for the DVM app.
 
-## Feature overview
+## Feature overview 
 
 | Feature | Description |
 |----------|-------------|
